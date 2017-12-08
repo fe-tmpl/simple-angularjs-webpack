@@ -1,0 +1,32 @@
+{
+  "name": "simple-angularjs-webpack",
+  "version": "1.0.0",
+  "description": "Step 3: AngularJS + Webpack Demo",
+  "scripts": {
+    "start": "webpack && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mean-engineering/simple-angularjs-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack3",
+    "angularjs"
+  ],
+  "author": "Aquariuslt<superaquariuslt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mean-engineering/simple-angularjs-webpack/issues"
+  },
+  "homepage": "https://github.com/mean-engineering/simple-angularjs-webpack#readme",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.11",
+    "angular": "^1.6.7",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0"
+  }
+}
